@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
 	s.authors     = ["Antoine Grant"]
 	s.email       = ["antoinegrant@gmail.com"]
 	s.homepage    = "https://github.com/antoinegrant/appcache-manifest"
-	s.date        = Date.today.to_s
 	s.summary     = "Convert manifest.yml to application.manifest and add a route to point to it."
 	s.description = ""
 	s.files       = `git ls-files`.split("\n") - %w[appcache-manifest.gemspec Gemfile]
